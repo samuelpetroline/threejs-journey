@@ -1,0 +1,26 @@
+{
+  "name": "threejs-journey",
+  "version": "0.0.1",
+  "private": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "workspaces": [
+    "exercises/*"
+  ],
+  "scripts": {
+    "start": "exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "three": "0.137.5"
+  },
+  "devDependencies": {
+    "@types/three": "0.137.0",
+    "chokidar": "3.5.3",
+    "concurrently": "^7.0.0",
+    "http-server": "^14.1.0",
+    "parcel": "^2.2.1",
+    "swc": "1.0.11",
+    "typescript": "4.5.5"
+  }
+}
