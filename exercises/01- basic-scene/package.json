@@ -1,0 +1,19 @@
+{
+  "name": "01--basic-scene",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "start": "5.1.0",
+    "three": "0.137.5"
+  },
+  "devDependencies": {
+    "concurrently": "7.0.0",
+    "http-server": "14.1.0"
+  }
+}
